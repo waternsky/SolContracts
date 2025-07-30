@@ -2,8 +2,8 @@
 pragma solidity ^0.8.19;
 
 import {Test, console} from "@forge-std/src/Test.sol";
-import {SimpleStorage} from "../src/SimpleStorage.sol";
-import {SimpleStorageScript} from "../script/SimpleStorage.s.sol";
+import {SimpleStorage} from "../../src/SimpleStorage.sol";
+import {SimpleStorageScript} from "../../script/SimpleStorage.s.sol";
 
 contract SimpleStorageTest is Test {
     SimpleStorage simpleStorage;
